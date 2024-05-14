@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            
+            /* 
+            Medidas Absolutas 
+            cm, mm, in, px, pt, pc 
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, % 
+            
+            Use px e em
+
+            16px geralmente = 1em
+            */
+            
+            font-size: 1em;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+
+            /* shorthand font 
+            - font-style -> font weight -> font-size -> font-family 
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder; 
+            font-size: 3em; 
+            font-style: italic;
+            */
+            
+            font: italic bolder 3em 'Work Sans', sans-serif ;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus dolores reprehenderit, esse repudiandae voluptatibus. A corporis rerum dolor neque, obcaecati omnis hic facere culpa adipisci ex deserunt nesciunt itaque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore deleniti iure voluptatum quibusdam? Eos consequuntur error, ratione delectus ea veritatis et libero nihil sed sit, odio fugit deserunt asperiores.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error harum aliquam minus enim nihil, cum assumenda obcaecati, ipsum id minima temporibus quam sit repellat, nemo architecto voluptas doloremque repellendus voluptatibus!</p>
+</body>
+</html>
