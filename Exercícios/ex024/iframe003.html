@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatibus culpa aliquid similique voluptatum iusto eum enim, adipisci reiciendis vel officiis assumenda omnis in ex itaque consectetur possimus consequuntur vero?</p>
+
+    <ul>
+        <li><a href="pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe laboriosam nulla esse at alias atque est, aperiam dolorem, exercitationem sequi repellendus ad voluptatum nisi reprehenderit sit nobis consequuntur earum doloremque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quo nobis dicta maiores voluptate. Earum ducimus velit commodi cumque quos facere, odit maiores, aut rem repudiandae qui, a placeat vitae?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores saepe quis facere itaque ut pariatur vero! Quis a dignissimos eos ipsa. Deserunt unde eaque commodi itaque eius vero porro minima! Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><img src='imagens/pexels21.jpg'>">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores saepe quis facere itaque ut pariatur vero! Quis a dignissimos eos ipsa. Deserunt unde eaque commodi itaque eius vero porro minima! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae culpa dolores fugit corrupti esse adipisci velit minima, autem qui corporis consectetur temporibus. Exercitationem consectetur autem sunt! Iusto fuga soluta tenetur.</p>
+</body>
+</html>
